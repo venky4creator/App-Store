@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  justify-content: center;
+}
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+.heading {
+  color: #1e293b;
+  font-family: bree serif;
+  font-size: 40px;
+  margin: 64px 0px 48px 0px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+  border: 1px solid #7b8794;
+  padding: 8px 16px 8px 16px;
+}
+.search-input {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+.search-icpon {
+  width: 24px;
+  height: 24px;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 32px;
+}
+.apps-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+  .search-input-container {
+    max-width: 430px;
+  }
+  .tabs-list {
+    margin-top: 48px;
+  }
+}
